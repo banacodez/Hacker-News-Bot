@@ -65,7 +65,7 @@ def schedule_daily_updates(app):
         await send_daily_update(app, destinations)
 
     loop = asyncio.get_event_loop()
-    schedule.every().day.at("09:00").do(lambda: asyncio.run_coroutine_threadsafe(run_daily_update(), loop))
+    schedule.every().day.at("09:05").do(lambda: asyncio.run_coroutine_threadsafe(run_daily_update(), loop))
 
     def run_scheduler():
         while True:
