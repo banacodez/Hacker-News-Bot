@@ -1,4 +1,4 @@
-# Hacker News Bot For Telegram Channel and Chat Group.
+# Hacker News Bot For Telegram Channel and Chat Group. This is HN.
 
 A Python-based Telegram bot that delivers daily updates of top Hacker News stories to your group chat.
 
